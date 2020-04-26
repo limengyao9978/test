@@ -1,0 +1,111 @@
+/* CSS Document */
+/*全局样式*/
+*{margin:0px;padding: 0px;font-family: "微软雅黑";outline: none;}
+a{text-decoration: none;color: black;}
+ul,li{list-style-type: none;}
+img{border: 0px;}
+
+/*头部样式*/
+.topbox {
+	width: 100%;
+	height: 110px;
+	background-image: url(../images/top-bg.jpg);
+}
+
+.top {
+	width: 1200px;
+	height: 110px;
+	margin: auto;
+	position: relative;
+}
+.top>ul{
+	position: absolute;
+	top: 10px;
+	right: 20px;
+}
+.top>ul>li{
+	width: 70px;
+	font-size: 14px;
+	display: inline-block;
+	text-align: center;
+	color: #8C2729;
+	cursor: pointer;
+}
+.top-logo {
+	margin-top: 8px;
+	margin-left: 80px;
+}
+
+.t-sousuo {
+	width: 368px;
+	height: 60px;
+	position:absolute;
+	top: 30px;
+	left: 550px;
+}
+
+.sousuok {
+	width: 365px;
+	height: 30px;
+	border: 2px solid #a62721;
+	border-radius: 15px;
+}
+
+.t-txt {
+	width: 260px;
+	height: 30px;
+	border: none;
+	border-radius: 15px;
+	background: none;
+	padding-left: 20px;
+	color: #5f5f5e;
+	outline: none;
+}
+
+.t-btn {
+	width: 80px;
+	height: 30px;
+	background-color: #a62721;
+	border: none;
+	border-radius: 14px;
+	color: #fff;
+	font-size: 16px;
+	line-height: 0px;
+	text-align: center;
+	outline: none;
+	cursor: pointer;
+}
+.t-btn:active{
+	background-color:#860A0C;
+}
+
+.t-gjc {
+	font-size: 12px;
+	color: #6e6e6e;
+}
+
+/*导航样式*/
+.navbox {
+	width: 100%;
+	height: 50px;
+	background-color:#A62721;
+}
+
+.nav {
+	width: 1200px;
+	height: 50px;
+	margin: auto;
+}
+.nav>ul>li{
+	width: 240px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	float: left;
+	background-image: url(../images/nav-bg.gif);
+	background-repeat: no-repeat;
+	background-position: -240px 0px;
+	transition: all 1s;
+	color: #ffff;
+}
+
